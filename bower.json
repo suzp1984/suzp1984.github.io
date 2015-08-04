@@ -1,0 +1,23 @@
+{
+  "name": "suzp1984.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/suzp1984/suzp1984.github.io",
+  "authors": [
+    "suzp1984 <suzp1984@gmail.com>"
+  ],
+  "description": "my website",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
