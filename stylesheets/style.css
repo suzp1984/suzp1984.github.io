@@ -1,3 +1,7 @@
 .whitefont {
     color: white;
 }
+
+.whitefont a:hover {
+    color: #2C3E50;
+}
