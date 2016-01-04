@@ -1,0 +1,13 @@
+#whitefont {
+    color: white;
+}
+
+#whitefont a:hover a:focus a:active
+{
+    color: #2C3E50;
+}
+
+.navbar {
+    background-color: #2c3e50;
+
+}
