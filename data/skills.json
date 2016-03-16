@@ -86,6 +86,25 @@
                 {"name": "Scala", "size": 2213},
                 {"name": "javascript", "size": 1}
             ]
+        },
+        {
+            "name": "Data Base",
+            "children": [
+                {"name": "MySql", "size": 1},
+                {"name": "Redis", "size": 1},
+                {"name": "Mongodb", "size": 1},
+                {"name": "Cassandra", "size": 1},
+                {"name": "CouchDb", "size": 1}
+                ]
+        },
+        {
+            "name": "Virtualization",
+            "children": [
+                {"name": "Xen", "size": 1},
+                {"name": "KVM", "size": 1},
+                {"name": "docker", "size": 1},
+                {"name": "vagrant", "size": 1}
+                ]
         }
     ]
 }
