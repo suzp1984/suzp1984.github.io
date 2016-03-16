@@ -38,7 +38,8 @@
                 {"name": "Hybrid App",
                  "children": [
                      {"name": "Cordova", "size": 1},
-                     {"name": "Ionic", "size": 1}
+                     {"name": "Ionic", "size": 1},
+                     {"name": "React-Native", "size": 1}
                  ]
                 }
             ]
