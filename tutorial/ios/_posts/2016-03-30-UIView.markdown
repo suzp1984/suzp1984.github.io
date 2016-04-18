@@ -1,0 +1,37 @@
+---
+layout: content
+title:  "UIView's coordinate and layout system"
+date:   2016-03-27 20:40:00 +0800
+---
+
+Coordinate
+==========
+
+UIView's property: frame, bounds, center.
+
+frame = bounds + center.
+
+If v2 is a subview of v1, then to center v2 within v1 you could say:
+
+```swift
+    v2.center = v1.convertPoint(v1.center, fromView:v1.superview)
+```
+
+Layout
+======
+
+TraitCollection and its four properties: displayScale, userInterfaceIdiom,
+horizontalSizeClass, verticalSizeClass.
+
+Layout is performed in three primary ways: Manual layout, Autoresizing, Autolayout.
+
+1. Autoresizing
+
+Autoseizing is a matter of conceptually assigning a subview "Springs and struts",
+A Spring can stretch; a strut can't.
+
+Autoresizing is simply to set autoresizingMask in code.
+
+2. Autolayout
+
+There are three ways to write autolayout code: NSLayoutConstraint, Anchor notation and visual format notation.
